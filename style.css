@@ -1,0 +1,91 @@
+body {
+  margin: 35px;
+}
+header {
+  font-size: 28px;
+  margin-top: 20px;
+}
+li {
+  line-height: 1.4;
+  padding: 7px;
+  margin-left: 40px;
+}
+.codeCase {
+  background-color: lightgrey;
+  font-size: 12px;
+  padding: 15px;
+  margin: 20px;
+  line-height: 1.6;
+  border-radius: 8px;
+}
+#main-doc {
+  margin-left: 300px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+#navbar {
+  top: 0px;
+  margin: 0px;
+  left: 0px;
+  width: 300px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+#navbar a {
+  color: black;
+  padding: 0px;
+  text-align: justify;
+  font-size: 20px;
+  text-decoration: none;
+}
+.nav-link li {
+  border: 1px;
+  padding: 5px;
+  padding-left: 30px;
+  list-style: none;
+  position: relative;
+  left: -50px;
+  width: 100%;
+}
+P {
+  font-size: 16px;
+  text-align: justify;
+  line-height: 20px;
+}
+.pic {
+  width: 50px;
+  height: 50px;
+  align-items: baseline;
+}
+#footer {
+  height: 40px;
+  width: 300px;
+  position: fixed;
+  left: 20px;
+  bottom: 40px;
+}
+#copyright {
+  text-align: center;
+}
+@media screen and (max-width: 700px) {
+  #navbar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .navbar a {
+    float: left;
+  }
+  div.main-doc {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .navbar a {
+    text-align: center;
+    float: none;
+  }
+}
